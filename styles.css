@@ -20,4 +20,22 @@ body{
     left: 50%;
     top: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
+    display: flex;
+}
+.testimonial-container{
+    border: 1px solid black;
+    position: relative;
+    height: 80%;
+    width: 85%;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.wrapper button{
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }
