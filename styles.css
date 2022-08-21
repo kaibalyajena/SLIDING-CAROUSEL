@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-color: #064439; */
+    background-color: #AFC9DC;
+}
+.wrapper{
+    /* background-color: #EEE7CE; */
+    background-color: #F2F4F6;
+    width: 80vw;
+    max-width: 40rem;
+    height: 23rem;
+    border-radius: 2rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
+}
