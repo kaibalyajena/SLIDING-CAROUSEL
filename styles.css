@@ -28,24 +28,38 @@ body{
     height: 80%;
     width: 85%;
     margin: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-   
+    /* margin-left: 10px;
+    margin-right: 10px; */
 }
 
 .wrapper button{
-    font-size: 2rem;
+    /* font-size: 2rem;
+    position: absolute;
     margin: auto;
-    height: 60px;
+    /* height: apx;
     width: 60px;
-    border-radius: 50%;
-    border: none;
+    border-radius: 50%; */
+    /* border: none;
     background-color: #F2F4F6;
     box-shadow: 0 0 1em rgba(0, 0, 0,0.2);
+    cursor: pointer  */
+    position:absolute;
+    margin: auto;
+    border: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    width: 60px;
+    height: 60px;
+    box-shadow:0 0 1em rgba(0, 0, 0,0.3);
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    color: #8ed0ff;
 }
 #prev{
-    margin-left: 10px;
+    left: -1.5rem;
 }
 #next{
-    margin-right: 10px;
-}
+    right: -1.5rem;
+}  
