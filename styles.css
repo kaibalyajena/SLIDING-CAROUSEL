@@ -34,8 +34,18 @@ body{
 }
 
 .wrapper button{
+    font-size: 2rem;
     margin: auto;
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    border: none;
+    background-color: #F2F4F6;
+    box-shadow: 0 0 1em rgba(0, 0, 0,0.2);
+}
+#prev{
+    margin-left: 10px;
+}
+#next{
+    margin-right: 10px;
 }
