@@ -25,3 +25,19 @@ testimonials=[
     }
     
 ]
+
+let i=0;
+let j=testimonials.length;
+let testimonialContainer = document.getElementById("testimonial-container");
+let nextBtn=document.getElementById("next");
+let prevBtn=document.getElementById("prev");
+
+let display_testimonial=()=>{
+    testimonialContainer.innerHTML=`
+    <h1>${testimonials[i].name}</h1>
+    <h3>${testimonials[i].age}</h3>
+    <p>${testimonials[i].testimonial}</p>
+    `
+}
+
+window.onload = display_testimonial;
