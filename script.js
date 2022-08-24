@@ -34,9 +34,10 @@ let prevBtn=document.getElementById("prev");
 
 let display_testimonial=()=>{
     testimonialContainer.innerHTML=`
-    <h1>${testimonials[i].name}</h1>
-    <h3>${testimonials[i].age}</h3>
     <p>${testimonials[i].testimonial}</p>
+    <h4>abilities: ${testimonials[i].abilities}</h4>
+    <h3>${testimonials[i].age}</h3>
+    <h1>${testimonials[i].name}</h1>
     `
 }
 
