@@ -32,6 +32,15 @@ let testimonialContainer = document.getElementById("testimonial-container");
 let nextBtn=document.getElementById("next");
 let prevBtn=document.getElementById("prev");
 
+nextBtn.addEventListener("click",()=>{
+    i=(j+i+1)%j;
+    display_testimonial();
+})
+prevBtn.addEventListener("click",()=>{
+    i=(j+i-1)%j;
+    display_testimonial();
+})
+
 let display_testimonial=()=>{
     testimonialContainer.innerHTML=`
     <p>${testimonials[i].testimonial}</p>
